@@ -1,0 +1,11 @@
+string_ = input("Enter a word: ")
+print(string_[2])
+print(string_[1:])
+print(string_[0:5])
+a = len(string_) - 2
+print(string_[0:a])
+print(string_[0::2])
+print(string_[1::2])
+print(string_[::-1])
+print(string_[::-2])
+print(len(string_))
